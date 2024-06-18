@@ -6,20 +6,20 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 3: Headers and Footers Display Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ This project involves creating a website with distinct header and footer designs using pure HTML and CSS. It includes both static and animated versions of the headers and footers, demonstrating various CSS styling and animation techniques. 
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+<!-- TODO: Change the zyx-0314 into your github username  --> nadinemondragon
+<!-- TODO: Change the WD-Template-Project into the same name of your folder --> WD-SW3
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
 ---
@@ -60,17 +60,63 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project?
+The project is to create a website featuring distinct header and footer designs using pure HTML and CSS. The headers and footers should have both static and animated versions. The end goal is a well-structured, visually appealing website that is properly deployed and documented.
+
+- Whats the purpose?
+The primary purpose of this project is to demonstrate the ability to design and implement unique website components (headers and footers) using only HTML and CSS, without relying on JavaScript or external libraries. It also aims to show proficiency in structuring a website and deploying it on a web server, as well as maintaining clear project documentation.
+
+- What are key components?
+Header Designs:
+
+Static Header: A header with fixed elements that do not change or move.
+Animated Header: A header with CSS animations, such as transitions, keyframes, or hover effects.
+Footer Designs:
+
+Static Footer: A footer with fixed elements that do not change or move.
+Animated Footer: A footer with CSS animations, similar to the animated header.
+Webpage Structure:
+
+HTML Document: The main file that includes the structure of the webpage.
+CSS Stylesheet: A file (or files) that contain the styles and animations for the headers and footers.
+Deployment:
+
+The process of making the website live on the internet through a web server or a hosting service.
+README File:
+
+A markdown file that contains documentation on how to set up, run, and understand the project.
+
+- What technology used and how it is used?
+HTML (HyperText Markup Language):
+
+Purpose: Provides the structure of the website.
+Usage: Used to create the main layout of the webpage, including the headers, footers, and content sections. Semantic HTML tags such as <header>, <footer>, <main>, and <section> help to create a clear and accessible structure.
+CSS (Cascading Style Sheets):
+
+Purpose: Provides the styling and animations for the website.
+Usage:
+Static Styling: CSS rules are used to apply colors, fonts, layouts, and other visual styles to the HTML elements.
+Animations: CSS animations, such as transitions and keyframes, are used to create animated effects in the headers and footers. For example:
+Transitions: Smoothly change properties like color, size, or position over a specified duration.
+Keyframes: Define complex animations by specifying intermediate steps.
+Deployment Tools:
+
+Purpose: To make the website accessible on the internet.
+Usage: Hosting services like GitHub Pages, Netlify, or Vercel can be used to deploy the static website. These platforms offer free and easy-to-use deployment options for static sites.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- ### Key Components
+
+1. Static Header
+2. Animated Header
+3. Static Footer
+4. Animated Footer
+5. HTML Document
+6. CSS Stylesheet
+7. Deployment
+8. README File
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -115,6 +161,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
+| Headers and Footers Display Website | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
