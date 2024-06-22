@@ -16,14 +16,61 @@ section {
     padding: 20px;
 }
 
-header {
+.design1 {
     display: flex;
     align-items: center;
-    background-color: #deadad;
+    background-color: #c1409e;
     color: white;
     padding: 10px;
     margin-bottom: 20px;
 }
+
+.design1 {
+    display: flex;
+    align-items: center;
+    background-color: #a36392;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.design2 {
+    display: flex;
+    align-items: center;
+    background-color: #a0ce83;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.design3 {
+    display: flex;
+    align-items: center;
+    background-color: #ebb1b2;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.design4 {
+    display: flex;
+    align-items: center;
+    background-color: #e9d4a0;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.design5 {
+    display: flex;
+    align-items: center;
+    background-color: #8bbde7;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
 
 .logo img {
     height: 50px;
@@ -44,6 +91,13 @@ header {
     height: 50px;
     margin-right: 10px;
 }
+
+.logo5 img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+
 
 header h2 {
     flex-grow: 1;
