@@ -40,6 +40,11 @@ header {
     margin-right: 10px;
 }
 
+.logo4 img {
+    height: 50px;
+    margin-right: 10px;
+}
+
 header h2 {
     flex-grow: 1;
     text-align: center;
