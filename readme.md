@@ -79,12 +79,8 @@ Webpage Structure:
 
 HTML Document: The main file that includes the structure of the webpage.
 CSS Stylesheet: A file (or files) that contain the styles and animations for the headers and footers.
-Deployment:
-
-The process of making the website live on the internet through a web server or a hosting service.
-README File:
-
-A markdown file that contains documentation on how to set up, run, and understand the project.
+Deployment: The process of making the website live on the internet through a web server or a hosting service.
+README File: A markdown file that contains documentation on how to set up, run, and understand the project.
 
 - What technology used and how it is used?
 HTML (HyperText Markup Language):
