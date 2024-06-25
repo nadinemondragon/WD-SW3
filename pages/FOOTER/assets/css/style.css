@@ -1,32 +1,121 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-footer {
-    background-color: #c1409e;3;
-    color: white;
-    padding: 20px 0;
+.footer {
+    padding: 20px;
     text-align: center;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-nav {
-    margin-top: 10px;
-}
-
-.footer-nav a {
     color: white;
+    margin-top: 20px;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-info p {
+    margin: 5px 0;
+}
+
+.footer .social-media a {
     margin: 0 10px;
+    color: white;
     text-decoration: none;
 }
 
-.footer-nav a:hover {
+.footer .social-media a:hover {
     text-decoration: underline;
+}
+
+.belle-fiori-footer {
+    background-color: #a36392;
+    font-family: 'Cursive', sans-serif;
+    text-align: left;
+}
+
+.belle-fiori-footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.belle-fiori-footer .logo, .belle-fiori-footer .footer-info, .belle-fiori-footer .social-media {
+    margin: 10px;
+}
+
+
+.oishi-bakery-footer {
+    background-color: #a0ce83;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+
+.oishi-bakery-footer .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.oishi-bakery-footer .logo, .oishi-bakery-footer .footer-info, .oishi-bakery-footer .social-media {
+    margin: 10px 0;
+}
+
+
+.ikea-footer {
+    background-color:  #ebb1b2;
+    font-family: 'Verdana', sans-serif;
+    text-align: right;
+}
+
+.ikea-footer .container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.ikea-footer .logo, .ikea-footer .footer-info, .ikea-footer .social-media {
+    margin: 10px;
+}
+
+
+.jelly-co-footer {
+    background-color: #e9d4a0;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+}
+
+.jelly-co-footer .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.jelly-co-footer .logo, .jelly-co-footer .footer-info, .jelly-co-footer .social-media {
+    margin: 10px 0;
+}
+
+
+.sugma-bake-shop-footer {
+    background-color: #8bbde7;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.sugma-bake-shop-footer .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sugma-bake-shop-footer .logo, .sugma-bake-shop-footer .footer-info, .sugma-bake-shop-footer .social-media {
+    margin: 10px 0;
 }
