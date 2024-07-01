@@ -86,19 +86,11 @@ README File: A markdown file that contains documentation on how to set up, run, 
 HTML (HyperText Markup Language):
 
 Purpose: Provides the structure of the website.
-Usage: Used to create the main layout of the webpage, including the headers, footers, and content sections. Semantic HTML tags such as <header>, <footer>, <main>, and <section> help to create a clear and accessible structure.
-CSS (Cascading Style Sheets):
-
-Purpose: Provides the styling and animations for the website.
-Usage:
 Static Styling: CSS rules are used to apply colors, fonts, layouts, and other visual styles to the HTML elements.
 Animations: CSS animations, such as transitions and keyframes, are used to create animated effects in the headers and footers. For example:
 Transitions: Smoothly change properties like color, size, or position over a specified duration.
 Keyframes: Define complex animations by specifying intermediate steps.
 Deployment Tools:
-
-Purpose: To make the website accessible on the internet.
-Usage: Hosting services like GitHub Pages, Netlify, or Vercel can be used to deploy the static website. These platforms offer free and easy-to-use deployment options for static sites.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
