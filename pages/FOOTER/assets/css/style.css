@@ -1,5 +1,8 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .footer {
@@ -34,6 +37,7 @@ body {
     text-decoration: underline;
 }
 
+/* Static Styles */
 .belle-fiori-footer {
     background-color: #a36392;
     font-family: 'Cursive', sans-serif;
@@ -47,11 +51,6 @@ body {
     padding: 20px;
 }
 
-.belle-fiori-footer .logo, .belle-fiori-footer .footer-info, .belle-fiori-footer .social-media {
-    margin: 10px;
-}
-
-
 .oishi-bakery-footer {
     background-color: #a0ce83;
     font-family: 'Brush Script MT', cursive;
@@ -63,11 +62,6 @@ body {
     align-items: center;
     padding: 20px;
 }
-
-.oishi-bakery-footer .logo, .oishi-bakery-footer .footer-info, .oishi-bakery-footer .social-media {
-    margin: 10px 0;
-}
-
 
 .ikea-footer {
     background-color:  #ebb1b2;
@@ -82,11 +76,6 @@ body {
     padding: 20px;
 }
 
-.ikea-footer .logo, .ikea-footer .footer-info, .ikea-footer .social-media {
-    margin: 10px;
-}
-
-
 .jelly-co-footer {
     background-color: #e9d4a0;
     font-family: 'Comic Sans MS', cursive;
@@ -98,11 +87,6 @@ body {
     align-items: center;
     padding: 20px;
 }
-
-.jelly-co-footer .logo, .jelly-co-footer .footer-info, .jelly-co-footer .social-media {
-    margin: 10px 0;
-}
-
 
 .sugma-bake-shop-footer {
     background-color: #8bbde7;
@@ -116,6 +100,87 @@ body {
     padding: 20px;
 }
 
-.sugma-bake-shop-footer .logo, .sugma-bake-shop-footer .footer-info, .sugma-bake-shop-footer .social-media {
-    margin: 10px 0;
+/* Animation Styles */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInFromLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInFromRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInFromTop {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInFromBottom {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes rotateIn {
+    from { transform: rotate(-180deg); opacity: 0; }
+    to { transform: rotate(0); opacity: 1; }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Apply Animations */
+.animated .logo img {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.animated .footer-info p {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.belle-fiori-footer.animated .logo img {
+    animation: slideInFromTop 2s ease-in-out;
+}
+
+.belle-fiori-footer.animated .footer-info p {
+    animation: rotateIn 2s ease-in-out;
+}
+
+.oishi-bakery-footer.animated .logo img {
+    animation: slideInFromRight 2s ease-in-out;
+}
+
+.oishi-bakery-footer.animated .footer-info p {
+    animation: zoomIn 2s ease-in-out;
+}
+
+.ikea-footer.animated .logo img {
+    animation: slideInFromBottom 2s ease-in-out;
+}
+
+.ikea-footer.animated .footer-info p {
+    animation: slideInFromRight 2s ease-in-out;
+}
+
+.jelly-co-footer.animated .logo img {
+    animation: rotateIn 2s ease-in-out;
+}
+
+.jelly-co-footer.animated .footer-info p {
+    animation: slideInFromTop 2s ease-in-out;
+}
+
+.sugma-bake-shop-footer.animated .logo img {
+    animation: zoomIn 2s ease-in-out;
+}
+
+.sugma-bake-shop-footer.animated .footer-info p {
+    animation: slideInFromLeft 2s ease-in-out;
 }
