@@ -151,4 +151,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Headers and Footers Display Website | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| HTML Tutorials | Descriptions and everything about HTML elements. | https://www.w3schools.com/html/ |
