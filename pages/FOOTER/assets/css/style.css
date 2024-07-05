@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -25,16 +24,6 @@ body {
 
 .footer .footer-info p {
     margin: 5px 0;
-}
-
-.footer .social-media a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.footer .social-media a:hover {
-    text-decoration: underline;
 }
 
 /* Static Styles */
@@ -64,7 +53,7 @@ body {
 }
 
 .ikea-footer {
-    background-color:  #ebb1b2;
+    background-color: #ebb1b2;
     font-family: 'Verdana', sans-serif;
     text-align: right;
 }
@@ -79,25 +68,42 @@ body {
 .jelly-co-footer {
     background-color: #e9d4a0;
     font-family: 'Comic Sans MS', cursive;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .jelly-co-footer .container {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
+}
+
+.jelly-co-footer .logo {
+    align-self: center;
 }
 
 .sugma-bake-shop-footer {
     background-color: #8bbde7;
     font-family: 'Georgia', serif;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sugma-bake-shop-footer .container {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    width: 100%;
     padding: 20px;
+}
+
+.sugma-bake-shop-footer .logo img {
+    margin: 0;
+}
+
+.sugma-bake-shop-footer .footer-info {
+    text-align: left;
+    margin-left: 20px;
 }
 
 /* Animation Styles */
