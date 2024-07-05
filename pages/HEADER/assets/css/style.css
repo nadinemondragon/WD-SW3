@@ -6,7 +6,7 @@ body, h1, h2, ul, li {
 
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    background-color: #333;
+  
     color: #333;
 }
 
@@ -16,7 +16,7 @@ section {
     padding: 20px;
 }
 
-.design1 {
+.design1, .design1.animated {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -27,7 +27,7 @@ section {
     font-family: 'Times New Roman', serif;
 }
 
-.design2 {
+.design2, .design2.animated {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +38,7 @@ section {
     font-family: 'Courier New', monospace;
 }
 
-.design3 {
+.design3, .design3.animated {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +49,7 @@ section {
     font-family: 'Verdana', sans-serif;
 }
 
-.design4 {
+.design4, .design4.animated {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,7 +60,7 @@ section {
     font-family: 'Georgia', serif;
 }
 
-.design5 {
+.design5, .design5.animated {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,25 +76,25 @@ section {
     margin-right: 15px;
 }
 
-.design1 h2 {
+.design1 h2, .design1.animated h2 {
     grid-column: 1 / -1;
     text-align: center;
 }
 
-.design2 h2 {
+.design2 h2, .design2.animated h2 {
     margin: 10px 0;
 }
 
-.design3 nav ul {
+.design3 nav ul, .design3.animated nav ul {
     flex: 1;
     justify-content: flex-end;
 }
 
-.design4 h2, .design4 nav ul {
+.design4 h2, .design4 nav ul, .design4.animated h2, .design4.animated nav ul {
     align-self: stretch;
 }
 
-.design5 h2 {
+.design5 h2, .design5.animated h2 {
     margin-right: 20px;
 }
 
@@ -115,4 +115,75 @@ nav a {
 
 nav a:hover {
     background-color: #f0baba;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.design1.animated {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.design2.animated {
+    animation: slideInLeft 2s ease-in-out;
+}
+
+.design3.animated {
+    animation: slideInRight 2s ease-in-out;
+}
+
+.design4.animated {
+    animation: bounceIn 2s ease-in-out;
+}
+
+.design5.animated {
+    animation: zoomIn 2s ease-in-out;
 }
