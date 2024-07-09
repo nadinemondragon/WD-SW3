@@ -169,21 +169,21 @@ nav a:hover {
 
 
 .design1.animated {
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 9s ease-in-out;
 }
 
 .design2.animated {
-    animation: slideInLeft 2s ease-in-out;
+    animation: slideInLeft 9s ease-in-out;
 }
 
 .design3.animated {
-    animation: slideInRight 2s ease-in-out;
+    animation: slideInRight 9s ease-in-out;
 }
 
 .design4.animated {
-    animation: bounceIn 2s ease-in-out;
+    animation: bounceIn 9s ease-in-out;
 }
 
 .design5.animated {
-    animation: zoomIn 2s ease-in-out;
+    animation: zoomIn 9s ease-in-out;
 }

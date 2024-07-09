@@ -142,51 +142,51 @@ body {
     to { transform: scale(1); opacity: 1; }
 }
 
-/* Apply Animations */
+
 .animated .logo img {
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 10s ease-in-out;
 }
 
 .animated .footer-info p {
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 10s ease-in-out;
 }
 
 .belle-fiori-footer.animated .logo img {
-    animation: slideInFromTop 2s ease-in-out;
+    animation: slideInFromTop 10s ease-in-out;
 }
 
 .belle-fiori-footer.animated .footer-info p {
-    animation: rotateIn 2s ease-in-out;
+    animation: rotateIn 10s ease-in-out;
 }
 
 .oishi-bakery-footer.animated .logo img {
-    animation: slideInFromRight 2s ease-in-out;
+    animation: slideInFromRight 9s ease-in-out;
 }
 
 .oishi-bakery-footer.animated .footer-info p {
-    animation: zoomIn 2s ease-in-out;
+    animation: zoomIn 9s ease-in-out;
 }
 
 .ikea-footer.animated .logo img {
-    animation: slideInFromBottom 2s ease-in-out;
+    animation: slideInFromBottom 9s ease-in-out;
 }
 
 .ikea-footer.animated .footer-info p {
-    animation: slideInFromRight 2s ease-in-out;
+    animation: slideInFromRight 9s ease-in-out;
 }
 
 .jelly-co-footer.animated .logo img {
-    animation: rotateIn 2s ease-in-out;
+    animation: rotateIn 9s ease-in-out;
 }
 
 .jelly-co-footer.animated .footer-info p {
-    animation: slideInFromTop 2s ease-in-out;
+    animation: slideInFromTop 9s ease-in-out;
 }
 
 .sugma-bake-shop-footer.animated .logo img {
-    animation: zoomIn 2s ease-in-out;
+    animation: zoomIn 9s ease-in-out;
 }
 
 .sugma-bake-shop-footer.animated .footer-info p {
-    animation: slideInFromLeft 2s ease-in-out;
+    animation: slideInFromLeft 9s ease-in-out;
 }
